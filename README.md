@@ -20,6 +20,15 @@ This architecture could be easily extended to work with any number of APIs or da
 
 ![Outfit Assistant](/images/outfit-assistant-diag-1.png)
 
+### Deploying
+
+This is a SAM project. Deploy this project using the SAM CLI.
+
+```
+> sam build
+> sam deploy --guided --capabilities='CAPABILITY_NAMED_IAM'
+```
+
 ### Testing the Lambda function
 
 To test the Lambda function without having to create an agent first, or simply to test without having to invoke the agent, I have provided you with three test event JSON files that can be pasted into the test event configuration page within the Lambda function.  Each test event is formatted as the event will be sent from the agent:
