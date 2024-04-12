@@ -4,8 +4,6 @@
 ![What should I wear today?](/images/illustration-of-different-weather-and-outfits.png)
 *Source: Titan Image Generator G1 - 'illustration of different weather and outfits'*
 
-    Level 300: The following information and instructions are provided at 300 level.  Some experience deploying solutions on Amazon Web Services is required, including working with Amazon Lambda functions.
-
 Note: The demo relies on you having an account with OpenWeatherMap, and an API key to access the [Weather](https://openweathermap.org/current) service.  This service is available on the OpenWeatherMap free plan. Please review any license terms applicable to the service with your legal team and confirm that your use case complies with the terms before proceeding.
 
 ## Introduction
